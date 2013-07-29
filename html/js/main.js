@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    var vars = $.deparam.fragment();;
+    var vars = $.deparam.fragment();
     var indx = vars.indx;
     if (indx != undefined){
         $("#server-text").html("Authorisation is for use by the INDX server: <tt>" + unescape(indx) + "</tt>, you will be redirected back there once authorisation has completed.");
