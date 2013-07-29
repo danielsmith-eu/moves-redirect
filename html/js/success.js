@@ -1,6 +1,6 @@
 $(document).ready(function(){
     var vars = $.deparam.querystring();
-    var indx = vars.start;
+    var indx = vars.state;
     var code = vars.code;
     if (indx != undefined){
         var url = indx;
