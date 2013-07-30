@@ -6,5 +6,8 @@ $(document).ready(function(){
         var url = $("#server-link").attr("href");
         url += "&state=" + indx; // don't unescape, it stays urlencoded for the link here (above is for human-readable, so we unescape it)
         $("#server-link").attr("href", url);
+
+        // redirect immediately
+        window.location = url;
     }
 });
