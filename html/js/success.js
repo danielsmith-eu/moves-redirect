@@ -5,7 +5,7 @@ $(document).ready(function(){
     if (indx != undefined){
         var url = indx;
         if (code != undefined) {
-            url += "#code=" + code;
+            url += "#code=" + code + "&redirect_url=" + indx;
         }
         window.location = url;
     }
